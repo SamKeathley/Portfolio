@@ -44,18 +44,34 @@ body {
         list-style: none;
         text-align: center;
         margin: 0;
-        padding-bottom: 20px;
     }
 }
 
 .sidenav {
-        li {
+    li {
+        a:hover {
+            background-color: #212121;
+        }
+        a:active {
+            background-color: #212121;    
+        }
+        a {
+            padding: 7px 20px; 
+            display: block;
+            font-size: 25px;
+        }
+        .social {
             a {
-                padding: 7px 20px; 
-                display: block;
-                font-size: 25px;
+                text-align: center;
+                font-size: 17px;
             }
         }
+        .logo {
+            a {
+                font-size: 40px;
+            }
+        }
+    }
 }
 
 .sidenav {

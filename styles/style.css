@@ -46,13 +46,29 @@ body {
   list-style: none;
   text-align: center;
   margin: 0;
-  padding-bottom: 20px;
+}
+
+.sidenav li a:hover {
+  background-color: #212121;
+}
+
+.sidenav li a:active {
+  background-color: #212121;
 }
 
 .sidenav li a {
   padding: 7px 20px;
   display: block;
   font-size: 25px;
+}
+
+.sidenav li .social a {
+  text-align: center;
+  font-size: 17px;
+}
+
+.sidenav li .logo a {
+  font-size: 40px;
 }
 
 .sidenav li a i {
