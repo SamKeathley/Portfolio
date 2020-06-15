@@ -1,31 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=Raleway:wght@300;500&display=swap");
 body {
   background: #212121;
   color: #ffffff;
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow: auto;
   display: block;
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
 }
 
 .container {
   width: 100%;
   height: 90%;
   position: absolute;
-  padding-left: 10em;
+  padding-left: 0;
   top: 5%;
   z-index: 1;
 }
 
-.container .intro {
+.container .page {
   position: absolute;
   left: 20%;
-  top: 50%;
+  top: 40%;
   width: 40%;
   max-height: 90%;
 }
 
-.sidenav {
+.logo {
+  display: block;
+  padding: 8px 0;
+  margin: 8px auto;
+  width: 24px;
+  height: auto;
+  max-width: 100%;
+}
+
+.logo a {
+  background: #212121;
+  text-decoration: none;
+}
+
+#navigation {
   background: #424242;
-  width: 70px;
+  width: 60px;
   height: 100%;
+  position: fixed;
   top: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -37,47 +62,108 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  z-index: 3;
   min-height: 500px;
 }
 
-.sidenav ul {
+nav {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#navigation nav a:active {
+  background: #212121;
+}
+
+#navigation nav a:hover {
+  background: #212121;
+}
+
+#navigation nav a {
+  font-size: 20px;
+  margin-bottom: 15px;
+  display: block;
+  line-height: 51px;
+  height: 51px;
+  position: relative;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#navigation ul {
   display: block;
   padding: 0;
   list-style: none;
   text-align: center;
   margin: 0;
+  padding-bottom: 20px;
 }
 
-.sidenav li a:hover {
-  background-color: #212121;
-}
-
-.sidenav li a:active {
-  background-color: #212121;
-}
-
-.sidenav li a {
-  padding: 7px 20px;
-  display: block;
-  font-size: 25px;
-}
-
-.sidenav li .social a {
-  text-align: center;
-  font-size: 17px;
-}
-
-.sidenav li .logo a {
-  font-size: 40px;
-}
-
-.sidenav li a i {
+#navigation a {
   color: #ffffff;
 }
 
-@media only screen and (max-width: 992px) {
-  header, main, footer {
-    padding-left: 0;
+.hamburger {
+  background-color: transparent;
+  border: 0;
+  color: #ffffff;
+  cursor: pointer;
+  display: none;
+  font-size: 30px;
+}
+
+.hamburger:focus {
+  outline: none;
+}
+
+@media only screen and (max-width: 767px) {
+  #navigation {
+    background: #424242;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 100%;
+    height: 60px;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    min-height: 0;
+    position: fixed;
+  }
+  #navigation .social {
+    display: none;
+  }
+  #navigation .nav-links {
+    display: none;
+    width: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #navigation .nav-links.show {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    left: 0;
+    opacity: 1;
+    float: left;
+    margin: 0;
+    line-height: 60px;
+    height: 60px;
+    width: 20%;
+  }
+  #navigation .nav-links a {
+    float: left;
+    margin-left: 0;
+    line-height: 60px;
+    height: 60px;
+    width: 20%;
+  }
+  .hamburger {
+    display: block;
+    margin: 10px 20px 10px 10px;
   }
 }
 /*# sourceMappingURL=style.css.map */
