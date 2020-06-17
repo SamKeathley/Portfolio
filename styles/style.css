@@ -87,6 +87,7 @@ hr {
   background: #ffffff;
   font-family: 'Raleway', sans-serif;
   margin-top: 10px;
+  border-style: none;
 }
 
 .btn:hover {
