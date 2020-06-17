@@ -10,7 +10,6 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
     font-weight: 300;;
-    text-align: justify;
 }
 
 h1 {
@@ -34,7 +33,7 @@ p {
 .container {
     .page {
         position: absolute;
-        left: 25%;
+        left: 20%;
         top: 20%;
         width: 70%;
         min-height: 566px;
@@ -45,7 +44,7 @@ p {
     .page {
         .home-section {
             position: absolute;
-            top: 50%;
+            top: 40%;
         }
         .about-section {
             position: absolute;
@@ -192,6 +191,37 @@ nav {
     outline: none;
 }
 
+@media only screen and (max-width: 1439px) {
+    .container {
+        .page {
+            .home-section {
+                position: absolute;
+                top: 20%;
+                left: 10%;
+            }
+            .about-section {
+                position: absolute;
+                top: 5%;
+                left: 10%;
+                font-size: 20px;
+            }
+            .skills-section {
+                position: absolute;
+                top: 10%;
+            }
+            .project-section {
+                position: absolute;
+                top: 10%;
+            }
+            .contact-section {
+                position: absolute;
+                top: 10%;
+            }    
+        }
+    }    
+}
+
+
 @media only screen and (max-width : 767px) {
     #navigation  {
         background: #424242;
@@ -253,4 +283,32 @@ nav {
     .container {
         height: 50%;
     }
+    .container {
+        .page {
+            .home-section {
+                position: absolute;
+                top: 30%;
+                left: 20%;
+            }
+            .about-section {
+                position: absolute;
+                top: 10%;
+                left: 10%;
+                font-size: 20px;
+            }
+            .skills-section {
+                position: absolute;
+                top: 10%;
+            }
+            .project-section {
+                position: absolute;
+                top: 10%;
+            }
+            .contact-section {
+                position: absolute;
+                top: 10%;
+            }    
+        }
+    }    
 }
+
