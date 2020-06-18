@@ -245,8 +245,8 @@ nav {
 @media only screen and (max-width: 1550px) {
   .home-section {
     position: absolute;
-    top: 20%;
-    left: 10%;
+    top: 25%;
+    left: 15%;
   }
   .about-section {
     position: absolute;
@@ -256,15 +256,18 @@ nav {
   }
   .skills-section {
     position: absolute;
-    top: 10%;
+    top: 25%;
+    left: 15%;
   }
   .project-section {
     position: absolute;
-    top: 10%;
+    top: 25%;
+    left: 15%;
   }
   .contact-section {
     position: absolute;
-    top: 10%;
+    top: 25%;
+    left: 15%;
   }
   .vert-timeline {
     position: absolute;
@@ -277,6 +280,12 @@ nav {
 }
 
 @media only screen and (max-width: 767px) {
+  body {
+    font-size: .5em;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
   #navigation {
     background: #424242;
     display: -webkit-box;
@@ -349,6 +358,22 @@ nav {
   .skills-section {
     position: absolute;
     width: 80%;
+  }
+  .my-skills {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .my-skills li {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 20px 40px 0;
   }
   .project-section {
     position: absolute;
