@@ -89,6 +89,50 @@ hr {
   height: 100%;
 }
 
+.my-skills {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 40px 0;
+  font-size: 70px;
+}
+
+.HTML {
+  color: #ff601c;
+}
+
+.CSS {
+  color: #05b8ff;
+}
+
+.SASS {
+  color: #e05e9f;
+}
+
+.JS {
+  color: #fcdf03;
+}
+
+.REACT {
+  color: #60dafb;
+}
+
+.GIT {
+  color: #f0593a;
+}
+
+.SKETCH {
+  color: #ffc505;
+}
+
 .btn {
   background: #ffffff;
   font-family: 'Raleway', sans-serif;
