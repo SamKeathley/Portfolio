@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="818px" height="1476px" viewBox="0 0 818 1476" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>vertical timeline</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FC002F" offset="0%"></stop>
+            <stop stop-color="#FF0073" offset="35.3793556%"></stop>
+            <stop stop-color="#E100AE" offset="61.4231419%"></stop>
+            <stop stop-color="#5500FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FC002F" offset="0%"></stop>
+            <stop stop-color="#FE005A" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#FE0065" offset="0%"></stop>
+            <stop stop-color="#F70082" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#E500A4" offset="0%"></stop>
+            <stop stop-color="#C600BE" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#9100DC" offset="0%"></stop>
+            <stop stop-color="#6A00F3" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="vertical-timeline">
+            <path d="M753,0 L753,116.852341 L753,0 Z M753,240.529992 L753,367.448492 L65,367.448492 L65,476.525184 M65,599.1352 L65,730.961166 L753,729.090477 L753,868.323027 M753,998 L753,1107.33954 L65,1107.33954 L65,1243.54255 M65,1372 L65,1473 L753,1473" id="Shape" stroke="url(#linearGradient-1)" stroke-width="5"></path>
+            <path d="M753,114.5 C735.741102,114.5 720.116102,121.495551 708.805826,132.805826 C697.495551,144.116102 690.5,159.741102 690.5,177 C690.5,194.258898 697.495551,209.883898 708.805826,221.194174 C720.116102,232.504449 735.741102,239.5 753,239.5 C770.258898,239.5 785.883898,232.504449 797.194174,221.194174 C808.504449,209.883898 815.5,194.258898 815.5,177 C815.5,159.741102 808.504449,144.116102 797.194174,132.805826 C785.883898,121.495551 770.258898,114.5 753,114.5 Z" id="Oval1" stroke="url(#linearGradient-2)" stroke-width="5"></path>
+            <ellipse id="Oval2" stroke="url(#linearGradient-3)" stroke-width="5" cx="65" cy="538.5" rx="62.5" ry="63"></ellipse>
+            <circle id="Oval3" stroke="url(#linearGradient-4)" stroke-width="5" cx="753" cy="933" r="62.5"></circle>
+            <circle id="Oval4" stroke="url(#linearGradient-5)" stroke-width="5" cx="65" cy="1307" r="62.5"></circle>
+            <text id="2017" font-family="Raleway-Bold, Raleway" font-size="36" font-weight="bold" fill="#FFFFFF">
+                <tspan x="713.13" y="186">2017</tspan>
+            </text>
+            <text id="2018" font-family="Raleway-Bold, Raleway" font-size="36" font-weight="bold" fill="#FFFFFF">
+                <tspan x="24.032" y="549">2018</tspan>
+            </text>
+            <text id="2019" font-family="Raleway-Bold, Raleway" font-size="36" font-weight="bold" fill="#FFFFFF">
+                <tspan x="712.302" y="942">2019</tspan>
+            </text>
+            <text id="2020" font-family="Raleway-Bold, Raleway" font-size="36" font-weight="bold" fill="#FFFFFF">
+                <tspan x="22.592" y="1318">2020 </tspan>
+            </text>
+            <text id="THE-FRONTSIDE" font-family="Raleway-Bold, Raleway" font-size="36" font-weight="bold" fill="#FFFFFF">
+                <tspan x="270.636" y="549">THE FRONTSIDE</tspan>
+            </text>
+            <text id="UNFORTUNATE-“LIFE-HA" font-family="Raleway-Bold, Raleway" font-size="36" font-weight="bold" fill="#FFFFFF">
+                <tspan x="275.17" y="891">UNFORTUNATE </tspan>
+                <tspan x="256.216" y="933">“LIFE HAPPENED”</tspan>
+                <tspan x="349.834" y="975">BREAK</tspan>
+            </text>
+            <text id="BOOTCAMP-&amp;-REALSAVVY" font-family="Raleway-Bold, Raleway" font-size="36" font-weight="bold" fill="#FFFFFF">
+                <tspan x="308.542" y="102">BOOTCAMP</tspan>
+                <tspan x="409" y="144"></tspan>
+                <tspan x="396.184" y="186">&amp;</tspan>
+                <tspan x="409" y="228"></tspan>
+                <tspan x="305.572" y="270">REALSAVVY</tspan>
+            </text>
+            <text id="BACK-IN-THE-GAME" font-family="Raleway-Bold, Raleway" font-size="36" font-weight="bold" fill="#FFFFFF">
+                <tspan x="338.026" y="1276">BACK IN </tspan>
+                <tspan x="373.63" y="1318">THE </tspan>
+                <tspan x="357.466" y="1360">GAME</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
