@@ -67,16 +67,75 @@ p {
   height: 20%;
 }
 
-.card {
+#my-projects {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 100%;
+  width: 100%;
+  top: 10%;
   margin-top: 10%;
-  background: #424242;
-  color: #ffffff;
+}
+
+.project-container {
+  display: block;
+  position: relative;
+  background-color: #454444;
+  margin-right: 20%;
+  height: 120%;
+  padding: 10px 20px 5px 20px;
+  border-radius: 20px;
+  width: 50%;
   text-align: center;
 }
 
-.card-img-top {
-  height: 80%;
+.project-container .project-content {
+  padding-bottom: 20px;
+  height: 50%;
   width: 100%;
+}
+
+.project-container p {
+  line-height: 30px;
+}
+
+.project-container img {
+  max-height: 300px;
+  max-width: 500px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #333333;
+}
+
+.project-container h3 {
+  padding-top: 20px;
+}
+
+.project-container hr {
+  width: 100%;
+}
+
+.project-container .btn {
+  position: static;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+.project-container .versa-btn {
+  margin-top: 50px;
+}
+
+.project-container .galveston-btn {
+  margin-top: 50px;
+}
+
+.project-container .creature-btn {
+  margin-top: 80px;
 }
 
 .contact-section {
@@ -401,11 +460,56 @@ nav {
   }
   .project-section {
     position: absolute;
+    width: 90%;
+    left: 10%;
+  }
+  .project-container {
+    margin-bottom: 20px;
     width: 80%;
+    height: 80%;
+    background-color: #212121;
+  }
+  .grey-container {
+    background-color: #333333;
+  }
+  #my-projects {
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    top: 10%;
+    margin-top: 10%;
+  }
+  #my-projects img {
+    display: none;
+  }
+  #my-projects .project-content {
+    text-align: left;
+    display: block;
+    margin-bottom: 20px;
+  }
+  #my-projects .btn {
+    margin-top: 10px;
+  }
+  #my-projects .versa-btn {
+    margin-bottom: 10px;
+  }
+  #my-projects h3 {
+    padding: 10px;
+    border-radius: 20px;
+    text-align: left;
+  }
+  #my-projects hr {
+    border-top: 4px double #ff8a00;
   }
   .contact-section {
     position: absolute;
     width: 80%;
+    height: 50%;
   }
   hr {
     width: 70%;
