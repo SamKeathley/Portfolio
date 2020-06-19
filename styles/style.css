@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=Alice&family=Raleway:wght@300;500&family=VT323&display=swap");
 body {
-  background: #212121;
+  background-color: #212121;
   color: #ffffff;
   overflow-x: hidden;
   overflow: auto;
@@ -46,11 +46,35 @@ p {
   height: 20%;
 }
 
+.lava {
+  position: absolute;
+  left: 158%;
+  margin-left: 120px;
+  top: 0;
+  margin-top: -83px;
+  height: 80%;
+  width: 60%;
+}
+
+.lava img {
+  max-height: 1000px;
+  max-width: 970px;
+}
+
 .about-section {
   position: absolute;
   top: 30%;
   width: 40%;
   height: 70%;
+}
+
+.vert-timeline {
+  position: absolute;
+  left: 115%;
+  margin-left: 120px;
+  top: 5%;
+  margin-top: -200px;
+  height: 100%;
 }
 
 .skills-section {
@@ -152,15 +176,6 @@ hr {
   display: block;
   width: 30%;
   margin: 0;
-}
-
-.vert-timeline {
-  position: absolute;
-  left: 115%;
-  margin-left: 120px;
-  top: 5%;
-  margin-top: -200px;
-  height: 100%;
 }
 
 .my-skills {
