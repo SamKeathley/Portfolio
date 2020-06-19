@@ -43,7 +43,7 @@ p {
   position: absolute;
   top: 42%;
   width: 30%;
-  max-height: 90%;
+  height: 20%;
 }
 
 .about-section {
@@ -57,11 +57,25 @@ p {
   position: absolute;
   top: 35%;
   width: 40%;
+  height: 20%;
 }
 
 .project-section {
   position: absolute;
-  top: 40%;
+  top: 20%;
+  width: 100%;
+  height: 20%;
+}
+
+.card {
+  margin-top: 10%;
+  background: #424242;
+  color: #ffffff;
+  text-align: center;
+}
+
+.card-img-top {
+  height: 80%;
   width: 100%;
 }
 
@@ -69,12 +83,13 @@ p {
   position: absolute;
   top: 37%;
   width: 50%;
+  height: 20%;
 }
 
 hr {
-  border-top: 4px double #8f8f8f;
+  border-top: 4px double #00f8fb;
   height: 5px;
-  opacity: 35%;
+  opacity: 100%;
   display: block;
   width: 30%;
   margin: 0;
@@ -106,7 +121,7 @@ hr {
 }
 
 .HTML {
-  color: #ff601c;
+  color: #ff581c;
 }
 
 .CSS {
@@ -114,23 +129,27 @@ hr {
 }
 
 .SASS {
-  color: #e05e9f;
+  color: #eb66a8;
 }
 
 .JS {
-  color: #fcdf03;
+  color: #fee905;
 }
 
 .REACT {
-  color: #60dafb;
+  color: #00e0e0;
 }
 
 .GIT {
-  color: #f0593a;
+  color: #f27935;
 }
 
 .SKETCH {
-  color: #ffc505;
+  color: #ffaa34;
+}
+
+.GOOGLE {
+  color: #1e90ff;
 }
 
 .btn {
@@ -138,11 +157,13 @@ hr {
   font-family: 'Raleway', sans-serif;
   margin-top: 10px;
   border-style: none;
+  margin-right: 5px;
 }
 
 .btn:hover {
   background: #424242;
   color: #ffffff;
+  border: 1px solid #282828;
 }
 
 .logo {
@@ -177,6 +198,7 @@ hr {
           justify-content: space-between;
   z-index: 3;
   min-height: 500px;
+  border-right: 2px solid #282828;
 }
 
 nav {
@@ -302,10 +324,12 @@ nav {
     z-index: 3;
     min-height: 0;
     position: fixed;
+    border-bottom: 2px solid #282828;
   }
   #navigation nav {
     width: 100%;
     position: fixed;
+    border-bottom: 2px solid #282828;
   }
   .logo {
     float: left;

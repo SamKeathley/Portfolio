@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="818px" height="1476px" viewBox="0 0 818 1476" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="818px" height="1473px" viewBox="0 0 818 1473" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>vertical timeline</title>
     <defs>
         <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
@@ -27,7 +27,7 @@
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="vertical-timeline">
-            <path d="M753,0 L753,116.852341 L753,0 Z M753,240.529992 L753,367.448492 L65,367.448492 L65,476.525184 M65,599.1352 L65,730.961166 L753,729.090477 L753,868.323027 M753,998 L753,1107.33954 L65,1107.33954 L65,1243.54255 M65,1372 L65,1473 L753,1473" id="Shape" stroke="url(#linearGradient-1)" stroke-width="5"></path>
+            <path d="M753,0 L753,116.852341 L753,0 Z M753,240.529992 L753,367.448492 L65,367.448492 L65,476.525184 M65,599.1352 L65,730.961166 L753,729.090477 L753,868.323027 M753,998 L753,1107.33954 L65,1107.33954 L65,1243.54255 M65,1372 L65,1473" id="Shape" stroke="url(#linearGradient-1)" stroke-width="5"></path>
             <path d="M753,114.5 C735.741102,114.5 720.116102,121.495551 708.805826,132.805826 C697.495551,144.116102 690.5,159.741102 690.5,177 C690.5,194.258898 697.495551,209.883898 708.805826,221.194174 C720.116102,232.504449 735.741102,239.5 753,239.5 C770.258898,239.5 785.883898,232.504449 797.194174,221.194174 C808.504449,209.883898 815.5,194.258898 815.5,177 C815.5,159.741102 808.504449,144.116102 797.194174,132.805826 C785.883898,121.495551 770.258898,114.5 753,114.5 Z" id="Oval1" stroke="url(#linearGradient-2)" stroke-width="5"></path>
             <ellipse id="Oval2" stroke="url(#linearGradient-3)" stroke-width="5" cx="65" cy="538.5" rx="62.5" ry="63"></ellipse>
             <circle id="Oval3" stroke="url(#linearGradient-4)" stroke-width="5" cx="753" cy="933" r="62.5"></circle>
