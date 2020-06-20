@@ -64,6 +64,7 @@ p {
     }
 }
 
+
 .about-section {
     position: absolute;
     top: 30%;
@@ -86,6 +87,66 @@ p {
     width: 40%;
     height: 20%;
 }
+
+.my-skills {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 0;
+    font-size: 70px;
+}
+
+.HTML {
+    color: #ff581c;
+}
+
+.CSS {
+    color: #05b8ff;
+}
+
+.SASS {
+    color: #eb66a8;
+}
+
+.JS {
+    color: #fee905;
+}
+
+.REACT {
+    color: #00e0e0;
+}
+
+.GIT {
+    color: #f27935;
+}
+
+.SKETCH {
+    color: #ffaa34;
+}
+
+.GOOGLE {
+    color: #1e90ff;
+}
+
+.flavor {
+    position: absolute;
+    left: 145%;
+    margin-left: 182px;
+    top: -30px;
+    margin-top: -411px;
+    height: 80%;
+    width: 60%;
+}
+
+.flavor {
+    img {
+        max-height: 990px;
+        max-width: 970px;
+    }
+}
+
+
 .project-section {
     position: absolute;
     top: 20%;
@@ -170,46 +231,6 @@ hr {
     margin: 0;
 }
 
-.my-skills {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 40px 0;
-    font-size: 70px;
-}
-
-.HTML {
-    color: #ff581c;
-}
-
-.CSS {
-    color: #05b8ff;
-}
-
-.SASS {
-    color: #eb66a8;
-}
-
-.JS {
-    color: #fee905;
-}
-
-.REACT {
-    color: #00e0e0;
-}
-
-.GIT {
-    color: #f27935;
-}
-
-.SKETCH {
-    color: #ffaa34;
-}
-
-.GOOGLE {
-    color: #1e90ff;
-}
 
 .btn {
     background: #ffffff;
