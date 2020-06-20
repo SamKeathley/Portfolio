@@ -49,15 +49,15 @@ p {
 .lava {
   position: absolute;
   left: 157%;
-  margin-left: 173px;
-  top: 0;
+  margin-left: 182px;
+  top: -30px;
   margin-top: -237px;
   height: 80%;
   width: 60%;
 }
 
 .lava img {
-  max-height: 1000px;
+  max-height: 990px;
   max-width: 970px;
 }
 
