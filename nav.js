@@ -1,6 +1,6 @@
 document.write('\
 <div id="navigation" class="nav-wrapper">\
-    <a class="logo" href="/"><h2>S</h2></a>\
+    <a class="logo" href="/"><img src="images/logo.png" alt="cool s logo"></img></a>\
     <nav>\
     <button id="hamburger" class="hamburger" aria-label="Main navigation."><i class="fas fa-bars" aria-hidden="true"></i></button>\
         <ul id="nav-links" class="nav-links">\

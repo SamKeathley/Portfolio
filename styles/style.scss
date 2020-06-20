@@ -229,15 +229,13 @@ hr {
     display: block;
     padding: 8px 0;
     margin: 8px auto;
-    width: 24px;
     height: auto;
     max-width: 100%;
 }
 
 .logo {
-    a {
-        background: #212121;
-        text-decoration: none;
+    img {
+        max-height: 80px;
     }
 }
 
@@ -324,6 +322,12 @@ nav {
 }
 
 @media only screen and (max-width: 1550px) {
+    .logo {
+        img {
+            max-height: 70px;
+        }
+    }
+    
     .home-section {
         position: absolute;
         top: 25%;
@@ -418,9 +422,15 @@ nav {
     .logo {
         float: left;
         padding: 2px 0;
-        margin: 10px 20px 10px 20px;
+        margin: 5px 20px 10px 20px;
         display: block;
         text-align: center;
+    }
+
+    .logo {
+        img {
+            max-height: 45px;
+        }
     }
 
     #navigation {
