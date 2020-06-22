@@ -12,9 +12,9 @@ document.write('\
         </ul>\
    </nav>\
         <ul class="social">\
-            <li><a href="https://github.com/SamKeathley" aria-label="Visit my GitHub."><i class="fab fa-github" aria-hidden="true"></i></a></li>\
-            <li><a href="https://www.linkedin.com/in/sam-keathley/" aria-label="Connect with me on LinkedIn."><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>\
-            <li><a href="https://twitter.com/SamKeathley" aria-label="Find me on Twitter."><i class="fab fa-twitter" aria-hidden="true"></i></a></li>\
+            <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/SamKeathley" aria-label="Visit my GitHub."><i class="fab fa-github" aria-hidden="true"></i></a></li>\
+            <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/sam-keathley/" aria-label="Connect with me on LinkedIn."><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>\
+            <li><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/SamKeathley" aria-label="Find me on Twitter."><i class="fab fa-twitter" aria-hidden="true"></i></a></li>\
             </ul>\
     </div>');
 
