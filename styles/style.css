@@ -222,7 +222,7 @@ p {
 }
 
 .project-container .creature-btn {
-  margin-top: 80px;
+  margin-top: 25px;
 }
 
 .contact-section {
@@ -374,8 +374,16 @@ nav {
   .about-section {
     position: absolute;
     top: 15%;
-    left: 10%;
+    left: 13%;
     height: 60%;
+  }
+  .vert-timeline {
+    position: absolute;
+    left: 103%;
+    margin-left: 120px;
+    top: 45%;
+    margin-top: -200px;
+    height: 150%;
   }
   .skills-section {
     position: absolute;
@@ -385,23 +393,44 @@ nav {
   .my-skills li {
     padding: 0 20px 40px 0;
   }
+  .flavor {
+    left: 69%;
+    top: 169px;
+  }
   .project-section {
     position: absolute;
-    top: 25%;
+    top: 15%;
     left: 15%;
+  }
+  .project-container {
+    width: 48%;
+    margin-top: 5%;
+    margin-right: 0;
+    text-align: left;
+    background-color: transparent;
+  }
+  .project-container img {
+    background-color: #454444;
+  }
+  .project-container h3 {
+    padding-top: 30px;
+  }
+  .project-container hr {
+    width: 50%;
+  }
+  .project-container .creature-btn {
+    margin-top: 25px;
+  }
+  #my-projects {
+    width: 80%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: 5%;
   }
   .contact-section {
     position: absolute;
     top: 25%;
     left: 15%;
-  }
-  .vert-timeline {
-    position: absolute;
-    left: 115%;
-    margin-left: 120px;
-    top: 27%;
-    margin-top: -200px;
-    height: 150%;
   }
 }
 
@@ -489,6 +518,9 @@ nav {
     font-size: 20px;
     width: 90%;
   }
+  .vert-timeline {
+    display: none;
+  }
   .skills-section {
     position: absolute;
     width: 80%;
@@ -509,31 +541,36 @@ nav {
             align-items: center;
     padding: 0 20px 40px 0;
   }
+  .flavor {
+    display: none;
+  }
   .project-section {
     position: absolute;
     width: 90%;
-    left: 10%;
+    height: 100%;
+    left: 15%;
   }
   .project-container {
     margin-bottom: 20px;
-    width: 80%;
-    height: 80%;
-    background-color: #212121;
+    width: 100%;
+    height: 65%;
+    background-color: transparent;
   }
   .grey-container {
-    background-color: #333333;
+    background-color: #424242;
   }
   #my-projects {
     position: absolute;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    top: 10%;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    top: 15%;
     margin-top: 10%;
+    left: -2%;
   }
   #my-projects img {
     display: none;
@@ -550,12 +587,13 @@ nav {
     margin-bottom: 10px;
   }
   #my-projects h3 {
-    padding: 10px;
+    padding: 0 10px 10px 0;
     border-radius: 20px;
     text-align: left;
   }
   #my-projects hr {
-    border-top: 4px double #ff8a00;
+    border-top: 4px double #00e0e0;
+    width: 60%;
   }
   .contact-section {
     position: absolute;
@@ -564,9 +602,6 @@ nav {
   }
   hr {
     width: 70%;
-  }
-  .vert-timeline {
-    display: none;
   }
 }
 /*# sourceMappingURL=style.css.map */
