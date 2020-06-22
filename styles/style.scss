@@ -220,10 +220,11 @@ hr {
 }
 .logo {
     display: block;
-    padding: 8px 0;
-    margin: 8px auto;
     height: auto;
     max-width: 100%;
+    text-align: center;
+    padding: 5px 0;
+    background-color: #333333;
 }
 .logo {
     img {
@@ -311,7 +312,7 @@ nav {
 @media only screen and (max-width: 1550px) {
     .logo {
         img {
-            max-height: 70px;
+            max-height: 65px;
         }
     }
     .home-section {
@@ -432,17 +433,15 @@ nav {
     }
     .logo {
         float: left;
-        padding: 2px 0;
-        margin: 5px 20px 10px 20px;
         display: block;
         text-align: center;
+        width: 15%;
     }
     .logo {
         img {
             max-height: 45px;
         }
     }
-
     #navigation {
         nav {
             a {
