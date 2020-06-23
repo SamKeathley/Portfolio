@@ -403,6 +403,96 @@ nav {
     }    
 }
 
+@media only screen and (max-width: 1024px) {
+    .home-section {
+        width: 34%;
+    }
+    .lava {
+        left: 112%;
+        top: 35%;
+    }
+    .about-section {
+        top: 15%;
+        left: 20%;
+        width: 70%;
+    }
+    .vert-timeline {
+        display: none;
+    }
+    .skills-section {
+        top: 17%;
+        left: 15%;
+        width: 50%;
+    }
+    .skills-section {
+        .blurb {
+            position: absolute;
+            top: -11%;
+        }
+    }
+    .my-skills {
+        padding-bottom: 0;
+        flex-wrap: wrap;
+    }
+    .flavor {
+        left: 42%;
+        top: 238px;
+    }
+    .flavor {
+        img {
+            max-height: 480px;
+            max-width: 460px;
+        }
+    }
+    .project-section {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 20%;
+    }
+    .project-container {
+        width: 100%;
+        height: 65%;
+        background-color: transparent;
+    }
+    .construction {
+        padding-left: 10px;
+    }
+    #my-projects {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        top: 10%;
+        width: 70%;
+    }
+    #my-projects {
+        .project-content {
+            text-align: left;
+            display: block;
+        }
+        .btn {
+            margin-top: 10px;
+        }
+        .versa-btn {
+            margin-bottom: 10px;
+        }
+        h3 {
+            padding: 0 10px 10px 0;
+            border-radius: 20px;
+            text-align: left;
+            margin-top: 15px;
+        }
+        hr {
+            border-top: 4px double #00e0e0;
+            width: 60%;
+        }
+    }
+    .contact-section {
+        left: 20%;
+        width: 70%;
+    }
+}
+
 
 @media only screen and (max-width : 767px) {
     body {
@@ -486,8 +576,8 @@ nav {
     }
     .home-section {
         .blurb {
-            position: absolute;
-            top: 10%;
+            position: fixed;
+            top: 20%;
         }
     }
     .lava {
@@ -498,7 +588,7 @@ nav {
     }
     .lava {
         img {
-            max-height: 360px;
+            max-height: 375px;
             max-width: 740px;
         }
     }    
@@ -514,6 +604,7 @@ nav {
     .skills-section {
         position: absolute;
         width: 80%;
+        top: 30%;
     }
     .my-skills{
         display: flex;
@@ -538,8 +629,13 @@ nav {
     .project-container {
         margin-bottom: 20px;
         width: 100%;
-        height: 65%;
+        height: 70%;
         background-color: transparent;
+    }
+    .project-section {
+        .blurb {
+            width: 80%;
+        }
     }
     .construction {
         padding-left: 10px;
@@ -584,6 +680,7 @@ nav {
         position: absolute;
         width: 80%;
         height: 50%;
+        left: 15%;
     }
     hr {
         width: 70%;
