@@ -1,3 +1,18 @@
-# Sam Writes Code
+# Samwritescode.io
+This is my personal website that outlines:
+- Who I am.
+- My skills.
+- My recent projects.
+- How to reach me.
 
-This is my portfolio site where I outline who I am, what I do, and what I've done. 
+### Technologies Used
+---
+- HTML
+- SASS
+- JavaScript
+- Sketch (timeline graphic)
+- Procreate (Background images & logo)
+
+### Check it out
+---
+[Sam Keathley](https://samwritescode.io/)
