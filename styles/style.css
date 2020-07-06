@@ -148,13 +148,15 @@ p {
 }
 
 .project-section {
-  position: absolute;
-  top: 20%;
+  top: 10%;
   width: 100%;
   height: 20%;
+  left: 15%;
+  bottom: 10%;
 }
 
 .my-projects {
+  position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -175,10 +177,13 @@ p {
       -ms-flex-direction: row;
           flex-direction: row;
   text-align: left;
+  margin: 30px;
+  width: 100%;
 }
 
 .project-section .left img {
   float: left;
+  margin-right: 70px;
 }
 
 .project-section .left .project-content {
@@ -195,10 +200,13 @@ p {
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
   text-align: right;
+  margin: 30px;
+  width: 100%;
 }
 
 .project-section .right img {
   float: right;
+  margin-left: 70px;
 }
 
 .project-section .right .project-content {
@@ -215,38 +223,11 @@ p {
 }
 
 .project-section img {
-  max-height: 300px;
   max-width: 500px;
-  padding: 20px;
-  border-radius: 20px;
 }
 
 .project-section h3 {
-  padding-top: 20px;
-}
-
-.project-section .btn {
-  position: static;
-  margin-top: 30px;
-  margin-right: 10px;
-}
-
-.project-section .versa-btn {
-  margin-top: 50px;
-}
-
-.project-section .galveston-btn {
-  margin-top: 50px;
-}
-
-.project-section .creature-btn {
-  margin-top: 25px;
-}
-
-.project-section .construction {
   padding-bottom: 10px;
-  border-radius: 20px;
-  margin-bottom: 0;
 }
 
 .contact-section {
