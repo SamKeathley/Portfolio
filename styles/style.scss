@@ -615,36 +615,50 @@ nav {
     }
     .project-section {
         position: absolute;
-        width: 90%;
-        height: 100%;
-        left: 15%;
-    }
-    .project-container {
-        margin-bottom: 20px;
-        width: 100%;
-        height: 70%;
-        background-color: transparent;
+        width: 60%;
+        left: 10%;
+        font-size: 20px;
     }
     .project-section {
-        .blurb {
-            width: 80%;
+        .right {
+            display: flex;
+            flex-direction: row;
+            text-align: left;
+            margin: 0;
+        }
+        .right {
+            hr {
+                float: left;
+            }
+            .project-content {
+                width: 90%;
+            }
+        }
+        .left {
+            margin: 0;
+        }
+        .left {
+            .project-content {
+                width: 90%;
+            }
         }
     }
     .construction {
         padding-left: 10px;
     }
-    .grey-container {
-        background-color: #424242;
-    }
-    #my-projects {
+    .my-projects {
         position: absolute;
         display: flex;
-        flex-direction: row;
-        top: 15%;
-        margin-top: 10%;
+        flex-direction: column;
         left: -2%;
+        justify-content: space-between;
     }
-    #my-projects {
+    #project-container {
+        margin-bottom: 10%;
+        border-bottom: 4px double #424242;
+        width: 90%;
+    }
+    .project-section {
         img {
             display: none;
         }
@@ -655,9 +669,7 @@ nav {
         }
         .btn {
             margin-top: 10px;
-        }
-        .versa-btn {
-            margin-bottom: 10px;
+            margin-bottom: 15px;
         }
         h3 {
             padding: 0 10px 10px 0;
@@ -667,6 +679,9 @@ nav {
         hr {
             border-top: 4px double #00e0e0;
             width: 60%;
+        }
+        p {
+            width: 120%;;
         }
     }
     .contact-section {
