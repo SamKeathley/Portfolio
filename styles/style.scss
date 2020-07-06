@@ -129,31 +129,43 @@ p {
     width: 100%;
     height: 20%;
 }
-#my-projects {
-    position: absolute;
+.my-projects {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     height: 100%;
-    width: 100%;
-    top: 10%;
-    margin-top: 10%;
+    width: 150%;
 }    
-.project-container {
-    display: block;
-    position: relative;
-    background-color: #454444;
-    margin-right: 20%;
-    height: 120%;
-    padding: 10px 20px 5px 20px;
-    border-radius: 20px;
-    width: 50%;
-    text-align: center;
-}
-.project-container {
-    .project-content {
-        padding-bottom: 20px;
-        height: 50%;
-        width: 100%;
+.project-section {
+    .left {
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+    }
+    .left {
+        img {
+            float: left;
+        }
+        .project-content {
+            float: right;
+            width: 60%;
+        }
+    }
+    .right {
+        display: flex;
+        flex-direction: row-reverse;
+        text-align: right;
+    }
+    .right {
+        img {
+            float: right;
+        }
+        .project-content {
+            float: left;
+            width: 80%;
+        }
+        hr {
+            float: right;
+        }
     }
     p {
         line-height: 30px;
@@ -163,13 +175,9 @@ p {
         max-width: 500px;
         padding: 20px;
         border-radius: 20px;
-        background-color: #333333;
     }
     h3 {
         padding-top: 20px;
-    }
-    hr {
-        width: 100%;
     }
     .btn {
         position: static;
@@ -186,7 +194,6 @@ p {
         margin-top: 25px;
     }
     .construction {
-        background-color: #282828;
         padding-bottom: 10px;
         border-radius: 20px;
         margin-bottom: 0;
