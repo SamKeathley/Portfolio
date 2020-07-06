@@ -152,7 +152,6 @@ p {
   width: 100%;
   height: 20%;
   left: 15%;
-  bottom: 10%;
 }
 
 .my-projects {
@@ -404,37 +403,81 @@ nav {
     top: 169px;
   }
   .project-section {
+    top: 10%;
+    width: 100%;
+    height: 20%;
+    left: 10%;
+  }
+  .my-projects {
     position: absolute;
-    top: 15%;
-    left: 15%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100%;
+    width: 100%;
   }
-  .project-container {
-    width: 48%;
-    margin-top: 5%;
-    margin-right: 0;
+  .project-section #project-container {
+    border-bottom: 4px double #424242;
+  }
+  .project-section .left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     text-align: left;
-    background-color: transparent;
+    margin: 30px;
+    width: 100%;
   }
-  .project-container img {
-    background-color: #454444;
+  .project-section .left img {
+    float: left;
+    margin-right: 70px;
   }
-  .project-container h3 {
-    padding-top: 30px;
+  .project-section .left .project-content {
+    float: right;
+    width: 60%;
   }
-  .project-container hr {
-    width: 50%;
+  .project-section .right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    text-align: right;
+    margin: 30px;
+    width: 100%;
   }
-  .project-container .creature-btn {
-    margin-top: 25px;
+  .project-section .right img {
+    float: right;
+    margin-left: 70px;
   }
-  .project-container .construction {
-    background-color: transparent;
-  }
-  #my-projects {
+  .project-section .right .project-content {
+    float: left;
     width: 80%;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    margin-top: 5%;
+  }
+  .project-section .right hr {
+    float: right;
+  }
+  .project-section p {
+    line-height: 30px;
+  }
+  .project-section img {
+    max-height: 300px;
+    max-width: 400px;
+  }
+  .project-section h3 {
+    padding-bottom: 10px;
+  }
+  .project-section .btn {
+    margin: 10px 5px 50px 0;
   }
   .contact-section {
     position: absolute;
@@ -482,21 +525,27 @@ nav {
     max-width: 460px;
   }
   .project-section {
+    top: 10%;
+    width: 80%;
+    height: 20%;
+    left: 12%;
+  }
+  .my-projects {
     position: absolute;
-    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     height: 100%;
-    left: 20%;
+    width: 90%;
   }
-  .project-container {
-    width: 100%;
-    height: 65%;
-    background-color: transparent;
+  .project-section #project-container {
+    border-bottom: 4px double #424242;
   }
-  .construction {
-    padding-left: 10px;
-  }
-  #my-projects {
-    position: absolute;
+  .project-section .left {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -504,28 +553,53 @@ nav {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    top: 10%;
-    width: 70%;
-  }
-  #my-projects .project-content {
     text-align: left;
-    display: block;
+    margin: 30px;
+    width: 100%;
   }
-  #my-projects .btn {
-    margin-top: 10px;
+  .project-section .left img {
+    float: left;
+    margin-right: 45px;
   }
-  #my-projects .versa-btn {
-    margin-bottom: 10px;
-  }
-  #my-projects h3 {
-    padding: 0 10px 10px 0;
-    border-radius: 20px;
-    text-align: left;
-    margin-top: 15px;
-  }
-  #my-projects hr {
-    border-top: 4px double #00e0e0;
+  .project-section .left .project-content {
+    float: right;
     width: 60%;
+  }
+  .project-section .right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    text-align: right;
+    margin: 30px;
+    width: 100%;
+  }
+  .project-section .right img {
+    float: right;
+    margin-left: 45px;
+  }
+  .project-section .right .project-content {
+    float: left;
+    width: 80%;
+  }
+  .project-section .right hr {
+    float: right;
+  }
+  .project-section p {
+    line-height: 30px;
+  }
+  .project-section img {
+    max-height: 200px;
+    max-width: 300px;
+  }
+  .project-section h3 {
+    padding-bottom: 10px;
+  }
+  .project-section .btn {
+    margin: 10px 5px 50px 0;
   }
   .contact-section {
     left: 20%;
@@ -688,28 +762,6 @@ nav {
   .project-section .left .project-content {
     width: 90%;
   }
-  .construction {
-    padding-left: 10px;
-  }
-  .my-projects {
-    position: absolute;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    left: -2%;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-  #project-container {
-    margin-bottom: 10%;
-    border-bottom: 4px double #424242;
-    width: 90%;
-  }
   .project-section img {
     display: none;
   }
@@ -733,6 +785,28 @@ nav {
   }
   .project-section p {
     width: 120%;
+  }
+  .project-section .construction {
+    padding-left: 10px;
+  }
+  .my-projects {
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    left: -2%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #project-container {
+    margin-bottom: 10%;
+    border-bottom: 4px double #424242;
+    width: 90%;
   }
   .contact-section {
     position: absolute;
