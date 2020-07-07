@@ -154,6 +154,12 @@ p {
   left: 15%;
 }
 
+#project-container {
+  padding-bottom: 5%;
+  border-bottom: 4px double #424242;
+  width: 100%;
+}
+
 .my-projects {
   position: absolute;
   display: -webkit-box;
