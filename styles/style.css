@@ -50,8 +50,8 @@ p {
   position: absolute;
   left: 157%;
   margin-left: 182px;
-  top: -30px;
-  margin-top: -237px;
+  top: 0;
+  margin-top: -227px;
   height: 80%;
   width: 60%;
 }
@@ -136,8 +136,8 @@ p {
   position: absolute;
   left: 145%;
   margin-left: 182px;
-  top: -30px;
-  margin-top: -411px;
+  top: 0;
+  margin-top: -475px;
   height: 80%;
   width: 60%;
 }
@@ -162,6 +162,8 @@ p {
 
 .my-projects {
   position: absolute;
+  display: -ms-flexbox;
+  display: flex;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -227,7 +229,7 @@ p {
 
 .project-section img {
   max-width: 500px;
-  max-height: 350px;
+  max-height: 385px;
 }
 
 .project-section h3 {
@@ -373,8 +375,8 @@ nav {
   .lava {
     position: absolute;
     left: 199%;
-    margin-top: -181px;
-    margin-left: -334px;
+    margin-top: -57px;
+    margin-left: -227px;
     top: 0;
   }
   .lava img {
@@ -415,10 +417,13 @@ nav {
   }
   .my-projects {
     position: absolute;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+        flex-direction: column;
     height: 100%;
     width: 100%;
   }
@@ -493,8 +498,14 @@ nav {
     width: 34%;
   }
   .lava {
-    left: 112%;
-    top: 35%;
+    left: 104%;
+    top: 0;
+    margin-top: 70px;
+    margin-left: -268px;
+  }
+  .lava img {
+    max-height: 700px;
+    max-width: 950px;
   }
   .about-section {
     top: 15%;
@@ -534,10 +545,13 @@ nav {
   }
   .my-projects {
     position: absolute;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+        flex-direction: column;
     height: 100%;
     width: 90%;
   }
@@ -692,8 +706,8 @@ nav {
   .lava {
     position: fixed;
     left: 105%;
-    margin-left: -334px;
-    top: 76%;
+    margin-left: -367px;
+    top: 57%;
   }
   .lava img {
     max-height: 375px;
@@ -790,10 +804,13 @@ nav {
   }
   .my-projects {
     position: absolute;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+        flex-direction: column;
     left: -2%;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
