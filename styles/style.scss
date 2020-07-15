@@ -442,16 +442,16 @@ nav {
 
 @media only screen and (max-width: 1024px) {
     .home-section {
-        width: 34%;
+        width: 50%;
     }
     .lava {
-        left: 104%;
+        left: 0;
         top: 0;
-        margin-top: 70px;
-        margin-left: -268px;
+        margin-top: 168px;
+        margin-left: 98px;
 
         img {
-            max-height: 700px;
+            max-height: 600px;
             max-width: 950px;
         }
     }
@@ -466,7 +466,7 @@ nav {
     .skills-section {
         top: 17%;
         left: 15%;
-        width: 50%;
+        width: 75%;
     }
     .skills-section {
         .blurb {
@@ -479,14 +479,7 @@ nav {
         flex-wrap: wrap;
     }
     .flavor {
-        left: 42%;
-        top: 238px;
-    }
-    .flavor {
-        img {
-            max-height: 480px;
-            max-width: 460px;
-        }
+        display: none;
     }
     .project-section {
         top: 10%;
@@ -643,26 +636,16 @@ nav {
     }
     .home-section {
         position: absolute;
-        left: 20%;
+        left: 15%;
         width: 80%;
-    }
-    .home-section {
+
         .blurb {
-            position: fixed;
+            position: absolute;
             top: 20%;
         }
     }
     .lava {
-        position: fixed;
-        left: 105%;
-        margin-left: -367px;
-        top: 57%;
-    }
-    .lava {
-        img {
-            max-height: 375px;
-            max-width: 740px;
-        }
+        display: none;
     }    
     .about-section {
         position: absolute;
@@ -745,9 +728,6 @@ nav {
         p {
             width: 120%;;
         }
-        .construction {
-            padding-left: 10px;
-        }    
     }
     .my-projects {
         position: absolute;
