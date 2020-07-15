@@ -163,12 +163,10 @@ p {
 .my-projects {
   position: absolute;
   display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+      flex-direction: column;
   height: 100%;
   width: 150%;
 }
@@ -229,6 +227,7 @@ p {
 
 .project-section img {
   max-width: 500px;
+  max-height: 350px;
 }
 
 .project-section h3 {
@@ -416,9 +415,6 @@ nav {
   }
   .my-projects {
     position: absolute;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -538,9 +534,6 @@ nav {
   }
   .my-projects {
     position: absolute;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -797,9 +790,6 @@ nav {
   }
   .my-projects {
     position: absolute;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
