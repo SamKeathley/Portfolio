@@ -1,43 +1,121 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+      charset="UTF-8"
+    />
+    <link rel="icon" href="images/favicon.ico?" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Sam Keathley</title>
+  </head>
 
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
-    integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <link rel="stylesheet" href="./styles/style.css">
-  <title>Sam Keathley</title>
-</head>
+  <body>
+    <header class="header">
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="about">About</a></li>
+          <li><a href="projects">Projects</a></li>
+          <li><a href="contact">Contact</a></li>
+          <li>
+            <a href="home"><img src="images/logo.png" alt="Logo" /></a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/SamKeathley"
+              aria-label="Visit my GitHub."
+              ><i class="fab fa-github" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/sam-keathley/"
+              aria-label="Connect with me on LinkedIn."
+              ><i class="fab fa-linkedin-in" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://twitter.com/SamKeathley"
+              aria-label="Find me on Twitter."
+              ><i class="fab fa-twitter" aria-hidden="true"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-<body>
-  <div class="page">
-    <script src="nav.js"></script>
-    <div class="container home-section">
-      <div class="blurb">
-        <h1>I'M SAM</h1>
-        <h5>(SHE/HER)</h5>
-        <hr>
-        <p>Frontend Developer / Artist</p>
+    <section id="hero-container" class="hero-container">
+      <div class="hero">
+        <h1>Hi. I'm Sam.</h1>
+        <span class="title">A Frontend Developer</span>
+        <p class="sub">
+          I'm also a traditional artist with a keen eye for detail and bringing
+          ideas to life.
+        </p>
       </div>
-      <div class="lava">
-        <img src="images/lava.png" alt="colorful lava background image">
+    </section>
+
+    <section id="about" class="about">
+      <div class="picture"></div>
+      <div class="info">
+        <h1>I'm Sam, a Frontend Developer looking for my next gig.</h1>
+        <p>
+          I've been a software developer (professionaly) for two years but have
+          been studying code for closer to three. My preferred home is in the
+          frontend, but I won't shy away from backend work with the right team,
+          company, or project.
+        </p>
+        <p>
+          I'm ambitious, well-organized, and I <strong>love</strong> to learn. I
+          value education, open communication, and keeping the web accessible
+          for everyone. Though I have no formal training in accessibility, I
+          strive to keep myself informed and implement accessibility principles
+          in my work.
+        </p>
+        <p>
+          Outside of code, I enjoy creating creepy works of art, playing with my
+          beautiful dog, reading fantasy books, and stomping goblins in D&D.
+        </p>
       </div>
-    </div>
-  </div>
+    </section>
 
-  </div>
+    <section id="projects" class="projects">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam vel
+        error exercitationem doloremque harum nam deleniti odit sequi, ad
+        voluptatum, illo dolore veritatis laboriosam cumque nulla animi vitae.
+        Nihil, qui.
+      </p>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit
+        corrupti fugit unde magnam fugiat totam non tempora culpa modi eum est
+        autem ipsam nihil perspiciatis quo, inventore necessitatibus eligendi
+        at?
+      </p>
+    </section>
 
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-    crossorigin="anonymous"></script>
-</body>
+    <section id="contact" class="contact">
+      <h3>I'm available for hire!</h3>
+      <p>Have an exciting project and need some help bringing it to life?</p>
+      <a class="btn btn-light btn-lg" href="mailto: keathleysam@gmail.com"
+        >EMAIL ME</a
+      >
+    </section>
 
+    <script src="script.js"></script>
+  </body>
 </html>
