@@ -50,10 +50,18 @@ nav {
   }
 }
 
+.hero-container {
+  position: relative;
+  padding: 40px 15px;
+
+  h1 {
+    font-size: 4.5rem;
+  }
+}
+
 h1 {
   font-family: 'Alice', serif;
-  font-size: 3rem;
-  margin-bottom: 15px;
+  font-size: 35px;
 }
 
 section {
@@ -69,12 +77,20 @@ section {
   flex-direction: row;
   justify-content: space-between;
 
-  .profile {
+  .picture {
     width: 35%;
     padding-left: 50px;
+
+    img {
+      border-radius: 10px;
+    }
   }
 
   .info {
     width: 46%;
+
+    p {
+      padding-top: 20px;
+    }
   }
 }

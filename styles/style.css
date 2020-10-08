@@ -58,10 +58,18 @@ nav .nav-links li a a:focus {
   border-bottom: 3px solid;
 }
 
+.hero-container {
+  position: relative;
+  padding: 40px 15px;
+}
+
+.hero-container h1 {
+  font-size: 4.5rem;
+}
+
 h1 {
   font-family: 'Alice', serif;
-  font-size: 3rem;
-  margin-bottom: 15px;
+  font-size: 35px;
 }
 
 section {
@@ -94,12 +102,20 @@ section {
           justify-content: space-between;
 }
 
-.about .profile {
+.about .picture {
   width: 35%;
   padding-left: 50px;
 }
 
+.about .picture img {
+  border-radius: 10px;
+}
+
 .about .info {
   width: 46%;
+}
+
+.about .info p {
+  padding-top: 20px;
 }
 /*# sourceMappingURL=style.css.map */
