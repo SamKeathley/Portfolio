@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=Alice&family=Raleway:wght@300;500&family=VT323&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body {
   background-color: #212121;
   color: #ffffff;
@@ -9,6 +14,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
   font-weight: 300;
+  height: 100vh;
 }
 
 h1 {
@@ -44,21 +50,6 @@ p {
   top: 42%;
   width: 30%;
   height: 20%;
-}
-
-.lava {
-  position: absolute;
-  left: 157%;
-  margin-left: 182px;
-  top: 0;
-  margin-top: -227px;
-  height: 80%;
-  width: 60%;
-}
-
-.lava img {
-  max-height: 990px;
-  max-width: 970px;
 }
 
 .about-section {
@@ -130,21 +121,6 @@ p {
 
 .GOOGLE {
   color: #1e90ff;
-}
-
-.flavor {
-  position: absolute;
-  left: 145%;
-  margin-left: 182px;
-  top: 0;
-  margin-top: -475px;
-  height: 80%;
-  width: 60%;
-}
-
-.flavor img {
-  max-height: 990px;
-  max-width: 970px;
 }
 
 .project-section {
@@ -369,19 +345,8 @@ nav {
   }
   .home-section {
     position: absolute;
-    top: 25%;
+    top: 40%;
     left: 15%;
-  }
-  .lava {
-    position: absolute;
-    left: 199%;
-    margin-top: -33px;
-    margin-left: -196px;
-    top: 0;
-  }
-  .lava img {
-    max-height: 600px;
-    max-width: 870px;
   }
   .about-section {
     position: absolute;
@@ -392,10 +357,10 @@ nav {
   .vert-timeline {
     position: absolute;
     left: 103%;
-    margin-left: 120px;
+    margin-left: 100px;
     top: 27%;
     margin-top: -200px;
-    height: 150%;
+    height: 100%;
   }
   .skills-section {
     position: absolute;
@@ -404,10 +369,6 @@ nav {
   }
   .my-skills li {
     padding: 0 20px 40px 0;
-  }
-  .flavor {
-    left: 69%;
-    top: 169px;
   }
   .project-section {
     top: 10%;
@@ -493,19 +454,9 @@ nav {
   }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1050px) {
   .home-section {
     width: 50%;
-  }
-  .lava {
-    left: 0;
-    top: 0;
-    margin-top: 14px;
-    margin-left: 301px;
-  }
-  .lava img {
-    max-height: 600px;
-    max-width: 950px;
   }
   .about-section {
     top: 15%;
@@ -528,9 +479,6 @@ nav {
     padding-bottom: 0;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-  }
-  .flavor {
-    display: none;
   }
   .project-section {
     top: 10%;
@@ -610,6 +558,7 @@ nav {
     margin: 10px 5px 50px 0;
   }
   .contact-section {
+    top: 40%;
     left: 20%;
     width: 70%;
   }
@@ -617,7 +566,7 @@ nav {
 
 @media only screen and (max-width: 767px) {
   body {
-    font-size: .5em;
+    font-size: 0.5em;
   }
   h1 {
     font-size: 1.5em;
@@ -698,9 +647,6 @@ nav {
     position: absolute;
     top: 20%;
   }
-  .lava {
-    display: none;
-  }
   .about-section {
     position: absolute;
     left: 10%;
@@ -730,9 +676,6 @@ nav {
         -ms-flex-align: center;
             align-items: center;
     padding: 0 20px 40px 0;
-  }
-  .flavor {
-    display: none;
   }
   .project-section {
     position: absolute;
