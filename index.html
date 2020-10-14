@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Animated Nav</title>
+    <title>Sam Keathley</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
     integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" />
@@ -15,9 +15,8 @@
         <ul>
           <li id="nav-1" class="slide-out-1"><a href="#home">Home</a></li>
           <li id="nav-2" class="slide-out-2"><a href="#about">About</a></li>
-          <li id="nav-3" class="slide-out-3"><a href="#skills">Skills</a></li>
-          <li id="nav-4" class="slide-out-4"><a href="#projects">Projects</a></li>
-          <li id="nav-5" class="slide-out-5"><a href="#contact">Contact</a></li>
+          <li id="nav-3" class="slide-out-3"><a href="#projects">Projects</a></li>
+          <li id="nav-4" class="slide-out-4"><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -29,7 +28,7 @@
     </div>
 
     <section id="home" class="home">
-      <a href="#" target="_blank">Sam Keathley</a>
+      <a href="#" class="name" target="_blank">Sam Keathley</a>
       <div class="intro">        
         <h1>Hi. I'm Sam.</h1>
           <span class="title">A Frontend Developer.</span>
@@ -37,8 +36,15 @@
             I'm also a traditional artist with a keen eye for detail and bringing
             ideas to life.
           </p>
+          <ul class="social">
+            <li><a href="https://github.com/SamKeathley" aria-label="Visit my GitHub"><i class="fab fa-github"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/sam-keathley/" aria-label="Connect with me on LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://twitter.com/SamKeathley" aria-label="Find me on Twitter"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://www.instagram.com/mouseratgimli/" aria-label="Check out my Instagram"><i class="fab fa-instagram"></i></a></li>
+          </ul>
       </div>
     </section>
+
     <section id="about" class="about">
       <div class="info">
         <h1>I'm Sam, a Frontend Developer looking for my next gig.</h1>
@@ -52,51 +58,43 @@
           When I'm not working, I enjoy creating creepy works of art, playing
           with my dog, reading, and stomping goblins in D&D.
         </p>
+        <ul class="my-skills">
+          <li class="SASS" style="color: #eb66a8;">
+              <i class="fab fa-sass" aria-hidden="true"></i>
+              <span class="sr-only">SASS</span>
+          </li>
+          <li class="HTML" style="color:  #ff581c;">
+              <i class="fab fa-html5" aria-hidden="true"></i>
+              <span class="sr-only">HTML5</span>
+          </li>
+          <li class="GIT" style="color: #f27935;">
+              <i class="fab fa-git-alt" aria-hidden="true"></i>
+              <span class="sr-only">Git</span>
+          </li>
+          <li class="SKETCH" style="color: #ffaa34;">
+              <i class="fab fa-sketch" aria-hidden="true"></i>
+              <span class="sr-only">Sketch</span>
+          </li>
+          <li class="JS" style="color: #fee905;">
+              <i class="fab fa-js-square" aria-hidden="true"></i>
+              <span class="sr-only">JavaScript</span>
+          </li>
+          <li class="REACT" style="color: #00e0e0;">
+              <i class="fab fa-react" aria-hidden="true"></i>
+              <span class="sr-only">ReactJS</span>
+          </li>
+          <li class="CSS" style="color: #05b8ff;">
+              <i class="fab fa-css3-alt" aria-hidden="true"></i>
+              <span class="sr-only">CSS3</span>
+          </li>
+          <li class="GOOGLE" style="color: #1e90ff;">
+              <i class="fab fa-google" aria-hidden="true"></i>
+              <span class="sr-only">Google</span>
+          </li>
+      </ul>
       </div>
     </section>
-    <section id="skills" class="skills">
-      <div class="blurb">
-        <h1>SKILLS</h1>
-        <p>I have been a member of an Agile team and have experience with test-driven development workflows.
-            Additionally, I have some
-            fullstack knowledge and have contributed to open source projects.</p>
-        <p>Where I really shine is on the frontend. In my toolbox, you'll most likely find:</p>
-        <ul class="my-skills">
-            <li class="SASS" style="color: #eb66a8;">
-                <i class="fab fa-sass" aria-hidden="true"></i>
-                <span class="sr-only">SASS</span>
-            </li>
-            <li class="HTML" style="color:  #ff581c;">
-                <i class="fab fa-html5" aria-hidden="true"></i>
-                <span class="sr-only">HTML5</span>
-            </li>
-            <li class="GIT" style="color: #f27935;">
-                <i class="fab fa-git-alt" aria-hidden="true"></i>
-                <span class="sr-only">Git</span>
-            </li>
-            <li class="SKETCH" style="color: #ffaa34;">
-                <i class="fab fa-sketch" aria-hidden="true"></i>
-                <span class="sr-only">Sketch</span>
-            </li>
-            <li class="JS" style="color: #fee905;">
-                <i class="fab fa-js-square" aria-hidden="true"></i>
-                <span class="sr-only">JavaScript</span>
-            </li>
-            <li class="REACT" style="color: #00e0e0;">
-                <i class="fab fa-react" aria-hidden="true"></i>
-                <span class="sr-only">ReactJS</span>
-            </li>
-            <li class="CSS" style="color: #05b8ff;">
-                <i class="fab fa-css3-alt" aria-hidden="true"></i>
-                <span class="sr-only">CSS3</span>
-            </li>
-            <li class="GOOGLE" style="color: #1e90ff;">
-                <i class="fab fa-google" aria-hidden="true"></i>
-                <span class="sr-only">Google</span>
-            </li>
-        </ul>
-    </div>
-    </section>
+    
     <section id="projects" class="projects">
       <div class="examples">
         <p>
@@ -117,9 +115,7 @@
       <div class="reach-out">
         <h1>I'm available for hire!</h1>
         <p>Have an exciting project and need some help bringing it to life?</p>
-        <a class="btn btn-light btn-lg" href="mailto: keathleysam@gmail.com">
-          EMAIL ME
-        </a>
+        <button href="mailto: keathleysam@gmail.com">Email Me</button>
     </div>
   </section>
 
