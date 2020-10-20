@@ -196,6 +196,7 @@ section {
   letter-spacing: 2px;
   color: var(--primaryColor);
   padding-left: 15px;
+  line-height: 45px;
 }
 
 section h1 {
@@ -277,6 +278,23 @@ section.about ul {
 
 section.projects {
   background-color: var(--navColor2);
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+section.contact a {
+  color: var(--navColor1);
 }
 
 /* --- HONEYCOMB ------------------------------------ */
