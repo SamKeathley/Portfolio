@@ -221,7 +221,7 @@ section.home::after {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 section.home .name {
@@ -449,6 +449,24 @@ button:active {
 }
 
 @media (max-width: 415px) {
+  section.home .intro li {
+    margin: 0 5%;
+  }
+
+  section.about {
+    line-height: 35px;
+    font-size: 0.9em;
+  }
+
+  section.about ul li {
+    font-size: 0.8em;
+    margin: 0 1.5%;
+  }
+
+  section.about h1 {
+    font-size: 1.8em;
+  }
+
   section.home .name {
     left: 0.5rem;
   }
@@ -465,6 +483,7 @@ button:active {
 
   .honeycomb-cell_title {
     font-size: 14px;
+    line-height: initial;
   }
 }
 
