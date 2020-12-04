@@ -265,13 +265,17 @@ section.about .info {
   width: 75%;
 }
 
+section.about p:nth-of-type(1) {
+  padding: 20px 0;
+}
+
 section.about ul {
   list-style: none;
   display: flex;
   justify-content: space-evenly;
   margin: 20px;
   font-size: 3.5rem;
-  margin-top: 0 50px;
+  margin-top: 50px;
 }
 
 .break {
@@ -280,6 +284,36 @@ section.about ul {
 
 section.projects {
   background-color: var(--navColor2);
+}
+
+.project-list {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  height: 100%;
+  padding: 50px 0;
+}
+
+.project {
+  height: 100%;
+  width: 90%;
+  padding: 50px 10px;
+}
+
+.project h2 {
+  margin-top: 0;
+}
+
+.project p {
+  margin: 10px 0;
+}
+
+.project-list hr {
+  width: 100%;
+  color: var(--navColor1);
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 14px;
 }
 
 a {
@@ -293,6 +327,7 @@ a:active {
 
 a:visited {
   text-decoration: none;
+  color: inherit;
 }
 
 section.contact a {
@@ -330,114 +365,78 @@ button:active {
   transform: translate(0, 0.3rem);
 }
 
-/* --- CARDS ------------------------------------ */
-
-.card-list {
-  display: flex;
-  padding: 3rem;
-  flex-wrap: wrap;
-}
-
-.card {
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  height: 450px;
-  width: 300px;
-  min-width: 250px;
-  padding: 1rem;
-  border-radius: 16px;
-  background-color: var(--navColor1);
-  box-shadow: -1rem 0 3rem #000;
-  transition: 0.2s;
-}
-
-.card:hover {
-  transform: translateY(-1rem);
-}
-
-.card:focus-within ~ .card,
-.card:hover ~ .card {
-  transform: translateX(130px);
-}
-
-.card:not(:first-child) {
-  margin-left: -130px;
-}
-
-.card-header p {
-  font-size: 14px;
-  margin: 0 0 1rem;
-}
-
-.card-header h2 {
-  font-size: 20px;
-  color: inherit;
-  border: 0;
-  display: inline-block;
-  cursor: pointer;
-}
-
-.card-button {
-  margin: 3rem 0 0;
-  display: grid;
-  grid-template-columns: 75px 1fr;
-  position: absolute;
-  bottom: 60px;
-}
-
-.card-button button {
-  text-decoration: none;
-  color: var(--primaryColor);
-  font-size: 20px;
-  width: 150%;
-}
-
-.tags {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin: 1rem 0 2rem;
-  padding: 0.5rem 0 1rem;
-  line-height: 2;
-  margin-bottom: 0;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-}
-
-.tags p {
-  font-weight: 700;
-  color: var(--primaryColor);
-  text-transform: uppercase;
-  font-size: 0.66rem;
-  border: 3px solid #28242f;
-  border-radius: 2rem;
-  padding: 0.2rem 0.85rem 0.25rem;
-}
-
 @media (max-width: 415px) {
+  section.home .name {
+    left: 0.5rem;
+  }
+
+  section.home .intro {
+    width: 75%;
+  }
+
+  section.home .title {
+    font-size: 1.5rem;
+  }
+
   section.home .intro li {
     margin: 0 5%;
   }
 
   section.about {
-    line-height: 35px;
     font-size: 0.9em;
+  }
+
+  section.about .info {
+    line-height: 30px;
+    width: 80%;
+  }
+
+  section.about ul {
+    flex-wrap: wrap;
+    margin: 25px 0;
   }
 
   section.about ul li {
     font-size: 0.8em;
-    margin: 0 1.5%;
+    margin: 10px;
   }
 
   section.about h1 {
     font-size: 1.8em;
-    padding-bottom: 15px;
   }
 
-  section.home .name {
-    left: 0.5rem;
+  .project-list {
+    padding: 15px 0;
+  }
+
+  .project {
+    padding: 0;
+  }
+
+  .project h2 {
+    font-size: 1rem;
+  }
+
+  .project p {
+    font-size: 0.75rem;
+    line-height: 20px;
+    margin: 5px 0;
+  }
+
+  .project button {
+    padding: 0.2rem 1.3rem;
+    height: 1.5rem;
+    font-size: 0.85rem;
+  }
+
+  .project-list hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  section.contact .reach-out {
+    width: 90%;
   }
 }
 
@@ -476,5 +475,40 @@ button:active {
 
   .break {
     flex-basis: 100%;
+  }
+
+  .project-list {
+    height: 100%;
+    padding-top: 20px;
+  }
+
+  .project h2 {
+    font-size: 1rem;
+  }
+
+  .project p {
+    font-size: 0.75rem;
+    line-height: 18px;
+    margin: 5px 0;
+  }
+
+  .project button {
+    padding: 0.2rem 1.3rem;
+    height: 1.5rem;
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 800px) {
+  section.home .intro {
+    width: 80%;
+  }
+
+  .project {
+    padding: 17px 0;
+  }
+
+  .project p {
+    font-size: 0.85rem;
   }
 }
