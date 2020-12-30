@@ -1,25 +1,48 @@
-// font-family: 'Montserrat', sans-serif;
+// FONT VARIABLES
+$font-primary: 'Raleway', sans-serif;
+$font-secondary: 'Montserrat', sans-serif;
 
-// font-family: 'Raleway', sans-serif;
+// COLOR VARIABLES
+$primary-color: #2e1114;
+$primary-color-dark: #1a1a1d;
+$secondary-color: #501b1d;
+$accent-color-1: #64485c;
+$accent-color-2: #83677b;
+$contrasting-color-1: #4e4e50;
+$contrasting-color-2: #adadad;
+$light-color: #eeeeee;
 
-* {
-  margin: 0;
-  padding: 0;
-}
+// SCREEN SIZES
+$bp-largest: 75em; // 1200px
+$bp-large: 68.75em; // 1100px
+$bp-medium: 56.25em; // 900px
+$bp-small: 37.5em; // 600px
+$bp-smallest: 31.25em; // 500px
 
 *,
 *::before,
 *::after {
+  margin: 0;
+  padding: 0;
   box-sizing: inherit;
-  font-size: 62.5%;
 }
 
 html {
   box-sizing: border-box;
+  font-size: 62.5%;
 }
 
 body {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 400;
+  font-family: $font-secondary;
+  color: $light-color;
+  font-weight: 300;
   line-height: 1.6;
+  background-image: linear-gradient(
+    to right bottom,
+    $primary-color,
+    $primary-color-dark
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }
