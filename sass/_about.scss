@@ -1,0 +1,14 @@
+.about {
+  display: flex;
+  justify-content: center;
+
+  &__content {
+    background-color: $secondary-color;
+    width: 60%;
+  }
+
+  &__picture {
+    background-color: $accent-color-2;
+    width: 40%;
+  }
+}

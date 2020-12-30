@@ -4,7 +4,8 @@ $font-secondary: 'Montserrat', sans-serif;
 
 // COLOR VARIABLES
 $primary-color: #2e1114;
-$primary-color-dark: #1a1a1d;
+$primary-color-dark: #1d0a0c;
+$primary-color-dark-2: #1a1a1d;
 $secondary-color: #501b1d;
 $accent-color-1: #64485c;
 $accent-color-2: #83677b;
@@ -45,4 +46,63 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 8rem auto;
+  min-height: 50rem;
+
+  section {
+    margin: 5rem;
+  }
+}
+
+.logo {
+  height: 7rem;
+  margin-left: 2rem;
+  border-radius: 50%;
+}
+
+.btn {
+  font-family: $font-secondary;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: transparent;
+  color: $light-color;
+  border: 1px solid $accent-color-1;
+  border-radius: 0.4rem;
+  padding: 1.25rem 1.75rem;
+  margin-top: 5rem;
+  cursor: pointer;
+  transition: all 0.2s;
+
+  &:hover {
+    background-color: $accent-color-1;
+    animation: pulsate 1s infinite;
+  }
+
+  a:link,
+  a:visited {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+    box-shadow: none;
+  }
+
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.25);
+  }
+
+  100% {
+    transform: scale(1);
+    box-shadow: none;
+  }
 }
