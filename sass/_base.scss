@@ -73,6 +73,7 @@ body {
   font-size: 3rem;
   font-family: $font-secondary;
   text-transform: uppercase;
+  font-weight: 300;
 
   &--icon {
     margin-right: 2rem;
@@ -82,6 +83,7 @@ body {
   &::after {
     content: '';
     height: 1px;
+    width: 75%;
     display: block;
     background-color: currentColor;
     margin: 1.5rem 0;
