@@ -1,6 +1,7 @@
 .about {
   display: flex;
   padding: 7rem;
+  align-items: center;
 
   &__content {
     background-color: transparent;
@@ -17,7 +18,7 @@
   &__list {
     list-style: none;
     padding: 3rem;
-    margin: 3rem 0;
+    margin: 1rem 0;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -36,7 +37,14 @@
   }
 
   &__picture {
-    background-color: $accent-color-2;
     width: 40%;
+    height: 70%;
+    margin-left: 8rem;
+
+    img {
+      width: 90%;
+      max-width: 50rem;
+      border-radius: 1rem;
+    }
   }
 }

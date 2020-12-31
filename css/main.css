@@ -61,6 +61,14 @@ body {
   font-size: 2.5rem;
 }
 
+.heading-2::after {
+  content: '';
+  height: 1px;
+  display: block;
+  background-color: currentColor;
+  margin: 1.5rem 0;
+}
+
 .btn {
   font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
@@ -138,6 +146,9 @@ body {
   display: -ms-flexbox;
   display: flex;
   padding: 7rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .about__content {
@@ -155,7 +166,7 @@ body {
 .about__list {
   list-style: none;
   padding: 3rem;
-  margin: 3rem 0;
+  margin: 1rem 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -181,8 +192,15 @@ body {
 }
 
 .about__picture {
-  background-color: #acbdba;
   width: 40%;
+  height: 70%;
+  margin-left: 8rem;
+}
+
+.about__picture img {
+  width: 90%;
+  max-width: 50rem;
+  border-radius: 1rem;
 }
 
 .contact {
