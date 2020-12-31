@@ -3,14 +3,14 @@ $font-primary: 'Raleway', sans-serif;
 $font-secondary: 'Montserrat', sans-serif;
 
 // COLOR VARIABLES
-$primary-color: #2e1114;
-$primary-color-dark: #1d0a0c;
-$primary-color-dark-2: #1a1a1d;
-$secondary-color: #501b1d;
-$accent-color-1: #64485c;
-$accent-color-2: #83677b;
-$contrasting-color-1: #4e4e50;
-$contrasting-color-2: #adadad;
+$primary-color: #2e2f2f;
+$primary-color-dark: #051014;
+$secondary-color: #5b716d;
+$accent-color-1: #cddddd;
+$accent-color-2: #acbdba;
+$accent-color-3: #8ea4a0;
+$contrasting-color-1: #a599b5;
+$contrasting-color-2: #78678e;
 $light-color: #eeeeee;
 
 // SCREEN SIZES
@@ -46,15 +46,20 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .container {
   max-width: 120rem;
-  margin: 8rem auto;
+  margin: 5rem 0 auto;
   min-height: 50rem;
 
   section {
-    margin: 5rem;
+    &:not(:last-of-type) {
+      margin: 10rem auto;
+    }
   }
 }
 
@@ -64,6 +69,17 @@ body {
   border-radius: 50%;
 }
 
+.heading-2 {
+  font-size: 3rem;
+  font-family: $font-secondary;
+  text-transform: uppercase;
+
+  &--icon {
+    margin-right: 2rem;
+    font-size: 2.5rem;
+  }
+}
+
 .btn {
   font-family: $font-secondary;
   font-size: 1.5rem;
@@ -71,7 +87,7 @@ body {
   text-decoration: none;
   background-color: transparent;
   color: $light-color;
-  border: 1px solid $accent-color-1;
+  border: 1px solid $accent-color-3;
   border-radius: 0.4rem;
   padding: 1.25rem 1.75rem;
   margin-top: 5rem;
@@ -79,7 +95,9 @@ body {
   transition: all 0.2s;
 
   &:hover {
-    background-color: $accent-color-1;
+    background-color: $accent-color-3;
+    color: $primary-color-dark;
+    font-weight: 400;
     animation: pulsate 1s infinite;
   }
 

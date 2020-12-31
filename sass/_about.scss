@@ -1,10 +1,38 @@
 .about {
   display: flex;
-  justify-content: center;
+  padding: 7rem;
 
   &__content {
-    background-color: $secondary-color;
+    background-color: transparent;
     width: 60%;
+    font-size: 1.7rem;
+  }
+
+  &__paragraph {
+    line-height: 1.4;
+    margin: 2rem 0;
+    padding-right: 5rem;
+  }
+
+  &__list {
+    list-style: none;
+    padding: 3rem;
+    margin: 3rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  &__item {
+    flex: 0 0 50%;
+    margin-bottom: 0.7rem;
+    font-family: $font-primary;
+  }
+
+  &__icon {
+    padding-right: 1rem;
+    color: $accent-color-3;
+    font-size: 1.5rem;
   }
 
   &__picture {

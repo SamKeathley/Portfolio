@@ -20,6 +20,7 @@
 
   &__item {
     position: relative;
+    color: #ffffff;
   }
 
   &__item::before {
@@ -29,7 +30,7 @@
     left: 0;
     height: 100%;
     width: 3px;
-    background-color: $accent-color-1;
+    background-color: rgba($contrasting-color-2, 0.4);
     transform: scaleY(0);
     transition: transform 0.2s, width 0.3s cubic-bezier(1, 0, 0, 1) 0.2s,
       background-color 0.1s;
@@ -43,7 +44,7 @@
   }
 
   &__item:active::before {
-    background-color: var(--color-primary-light);
+    background-color: $contrasting-color-2;
   }
 
   &__link {
