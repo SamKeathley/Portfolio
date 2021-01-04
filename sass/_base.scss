@@ -3,14 +3,11 @@ $font-primary: 'Raleway', sans-serif;
 $font-secondary: 'Montserrat', sans-serif;
 
 // COLOR VARIABLES
-$primary-color: #2e2f2f;
-$primary-color-dark: #051014;
-$secondary-color: #5b716d;
-$accent-color-1: #cddddd;
-$accent-color-2: #acbdba;
-$accent-color-3: #8ea4a0;
-$contrasting-color-1: #a599b5;
-$contrasting-color-2: #78678e;
+$primary-color: #18121e;
+$primary-color-dark: #000000;
+$secondary-color: #984b43;
+$accent-color-1: #eac678;
+$accent-color-2: #233237;
 $light-color: #eeeeee;
 
 // SCREEN SIZES
@@ -34,17 +31,10 @@ html {
 }
 
 body {
-  font-family: $font-secondary;
+  font-family: $font-primary;
   color: $light-color;
-  font-weight: 300;
   line-height: 1.6;
-  background-image: linear-gradient(
-    to right bottom,
-    $primary-color,
-    $primary-color-dark
-  );
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: $primary-color;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -70,15 +60,11 @@ body {
 }
 
 .heading-2 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-family: $font-secondary;
   text-transform: uppercase;
   font-weight: 300;
-
-  &--icon {
-    margin-right: 2rem;
-    font-size: 2.5rem;
-  }
+  color: $secondary-color;
 
   &::after {
     content: '';
@@ -93,11 +79,12 @@ body {
 .btn {
   font-family: $font-secondary;
   font-size: 1.5rem;
+  font-weight: 500;
   text-transform: uppercase;
   text-decoration: none;
   background-color: transparent;
-  color: $light-color;
-  border: 1px solid $accent-color-3;
+  color: $accent-color-1;
+  border: 1px solid $accent-color-1;
   border-radius: 0.4rem;
   padding: 1.25rem 1.75rem;
   margin-top: 5rem;
@@ -105,9 +92,8 @@ body {
   transition: all 0.2s;
 
   &:hover {
-    background-color: $accent-color-3;
-    color: $primary-color-dark;
-    font-weight: 400;
+    background-color: $accent-color-1;
+    color: $accent-color-2;
     animation: pulsate 1s infinite;
   }
 

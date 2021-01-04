@@ -28,11 +28,18 @@
     flex: 0 0 50%;
     margin-bottom: 0.7rem;
     font-family: $font-primary;
+    font-size: 1.5rem;
+    font-weight: 300;
+
+    span {
+      padding: 0 0.5rem;
+      font-weight: 500;
+    }
   }
 
   &__icon {
     padding-right: 1rem;
-    color: $accent-color-3;
+    color: $secondary-color;
     font-size: 1.5rem;
   }
 
@@ -40,11 +47,23 @@
     width: 40%;
     height: 70%;
     margin-left: 8rem;
+    position: relative;
+  }
 
-    img {
-      width: 90%;
-      max-width: 50rem;
-      border-radius: 1rem;
-    }
+  &__self {
+    width: 100%;
+    max-width: 50rem;
+    border-radius: 1rem;
+  }
+
+  &__box {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 2rem;
+    left: 2rem;
+    border: 2px solid $secondary-color;
+    z-index: -1;
   }
 }
