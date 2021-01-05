@@ -71,7 +71,7 @@ body {
 }
 
 .heading-3 {
-  font-size: 2rem;
+  font-size: 2.25rem;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-weight: 300;
@@ -191,7 +191,6 @@ body {
       -ms-flex: 0 0 50%;
           flex: 0 0 50%;
   margin-bottom: 0.7rem;
-  font-family: "Raleway", sans-serif;
   font-size: 1.5rem;
   font-weight: 300;
 }
@@ -201,10 +200,23 @@ body {
   font-weight: 500;
 }
 
-.about__icon {
-  padding-right: 1rem;
-  color: #eac678;
-  font-size: 1.5rem;
+.about__item::before {
+  content: '';
+  display: inline-block;
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-right: 0.8rem;
+}
+
+@supports (-webkit-mask-image: url()) {
+  .about__item::before {
+    background-color: #eac678;
+    -webkit-mask-image: url(../img/chevrons-right.svg);
+    mask-image: url(../img/chevrons-right.svg);
+    -webkit-mask-size: cover;
+    mask-size: cover;
+    background-image: none;
+  }
 }
 
 .about__picture {
@@ -427,21 +439,67 @@ body {
   display: -ms-flexbox;
   display: flex;
   margin-top: 2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.work__example {
+  width: 65%;
 }
 
 .work__example img {
-  width: 70%;
+  width: 100%;
+  display: block;
+  padding: 2rem;
 }
 
 .work__content {
-  width: 50%;
+  width: 35%;
+  text-align: right;
+}
+
+.work__summary {
+  background-color: #18121e;
+  -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+  font-size: 1.7rem;
+  width: 100%;
+  text-align: left;
 }
 
 .work__technologies {
   list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 2rem auto;
+}
+
+.work__technology {
+  font-size: 1.2rem;
+  color: #d4d4d4;
 }
 
 .work__links {
-  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.work__icon {
+  height: 3rem;
+  width: 3rem;
+  fill: #984b43;
+  margin-left: 1rem;
 }
 /*# sourceMappingURL=main.css.map */

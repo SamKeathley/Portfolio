@@ -27,7 +27,6 @@
   &__item {
     flex: 0 0 50%;
     margin-bottom: 0.7rem;
-    font-family: $font-primary;
     font-size: 1.5rem;
     font-weight: 300;
 
@@ -37,10 +36,21 @@
     }
   }
 
-  &__icon {
-    padding-right: 1rem;
-    color: $accent-color-1;
-    font-size: 1.5rem;
+  &__item::before {
+    content: '';
+    display: inline-block;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: 0.8rem;
+
+    @supports (-webkit-mask-image: url() or (mask-image: url())) {
+      background-color: $accent-color-1;
+      -webkit-mask-image: url(../img/chevrons-right.svg);
+      mask-image: url(../img/chevrons-right.svg);
+      -webkit-mask-size: cover;
+      mask-size: cover;
+      background-image: none;
+    }
   }
 
   &__picture {

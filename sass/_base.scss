@@ -9,6 +9,7 @@ $secondary-color: #984b43;
 $accent-color-1: #eac678;
 $accent-color-2: #233237;
 $light-color: #eeeeee;
+$light-color-2: #d4d4d4;
 
 // SCREEN SIZES
 $bp-largest: 75em; // 1200px
@@ -80,7 +81,7 @@ body {
 }
 
 .heading-3 {
-  font-size: 2rem;
+  font-size: 2.25rem;
   font-family: $font-secondary;
   text-transform: uppercase;
   font-weight: 300;

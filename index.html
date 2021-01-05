@@ -8,19 +8,13 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Raleway:wght@300;400;600&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
-      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
-      crossorigin="anonymous"
-    />
     <link rel="stylesheet" href="css/main.css" />
     <title>Sam Keathley</title>
   </head>
   <body>
     <div class="container">
       <div class="navigation">
-        <img src="/images/eyecon.png" alt="eye logo" class="logo" />
+        <img src="/img/eyecon.png" alt="eye logo" class="logo" />
         <nav class="navigation__nav">
           <ul class="navigation__list">
             <li class="navigation__item">
@@ -69,29 +63,16 @@
             Recently, I've been building my projects using:
           </p>
           <ul class="about__list">
-            <li class="about__item">
-              <i class="fas fa-caret-right about__icon"></i>JavaScript
-            </li>
-            <li class="about__item">
-              <i class="fas fa-caret-right about__icon"></i>React
-            </li>
-            <li class="about__item">
-              <i class="fas fa-caret-right about__icon"></i>HTML
-              <span>&</span> (S)CSS
-            </li>
-            <li class="about__item">
-              <i class="fas fa-caret-right about__icon"></i>Figma
-            </li>
-            <li class="about__item">
-              <i class="fas fa-caret-right about__icon"></i>Node.js
-            </li>
-            <li class="about__item">
-              <i class="fas fa-caret-right about__icon"></i>MongoDB
-            </li>
+            <li class="about__item">JavaScript</li>
+            <li class="about__item">React</li>
+            <li class="about__item">HTML<span>&</span> (S)CSS</li>
+            <li class="about__item">Figma</li>
+            <li class="about__item">Node.js</li>
+            <li class="about__item">MongoDB</li>
           </ul>
         </div>
         <div class="about__picture">
-          <img class="about__self" src="images/me.jpg" alt="Sam Photo" />
+          <img class="about__self" src="img/me.jpg" alt="Sam Photo" />
           <div class="about__box"></div>
         </div>
       </section>
@@ -104,7 +85,7 @@
         <h2 class="heading-2">Recent Projects</h2>
         <div class="work__project">
           <div class="work__example">
-            <img src="/images/creatureGen.png" alt="creature generator" />
+            <img src="/img/creatureGen.png" alt="creature generator" />
           </div>
           <div class="work__content">
             <h3 class="heading-3">Creature Generator</h3>
@@ -117,18 +98,22 @@
               <li class="work__technology">Bootstrap</li>
               <li class="work__technology">SASS</li>
             </ul>
-            <ul class="work__links">
-              <li class="work__link">
-                <i class="fab fa-github"
-                  ><a href="https://github.com/SamKeathley/CC5000v2"></a
-                ></i>
-              </li>
-              <li class="work__link">
-                <i class="fas fa-external-link-alt"
-                  ><a href="https://creature-generator.herokuapp.com/"></a
-                ></i>
-              </li>
-            </ul>
+            <div class="work__links">
+              <div class="work__link">
+                <a href="https://github.com/SamKeathley/CC5000v2">
+                  <svg class="work__icon">
+                    <use xlink:href="img/sprite.svg#icon-github"></use>
+                  </svg>
+                </a>
+              </div>
+              <div class="work__link">
+                <a href="https://creature-generator.herokuapp.com/">
+                  <svg class="work__icon">
+                    <use xlink:href="img/sprite.svg#icon-external-link"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
