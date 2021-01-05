@@ -17,7 +17,7 @@
 
   &__list {
     list-style: none;
-    padding: 2rem;
+    padding-top: 2rem;
     margin: 1rem 0;
     display: flex;
     flex-wrap: wrap;
@@ -39,7 +39,7 @@
 
   &__icon {
     padding-right: 1rem;
-    color: $secondary-color;
+    color: $accent-color-1;
     font-size: 1.5rem;
   }
 

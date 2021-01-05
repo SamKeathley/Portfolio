@@ -65,15 +65,26 @@ body {
   text-transform: uppercase;
   font-weight: 300;
   color: $secondary-color;
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
 
   &::after {
     content: '';
     height: 1px;
-    width: 75%;
-    display: block;
-    background-color: currentColor;
-    margin: 1.5rem 0;
+    width: 30rem;
+    background-color: $accent-color-2;
+    margin-left: 2rem;
   }
+}
+
+.heading-3 {
+  font-size: 2rem;
+  font-family: $font-secondary;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: $accent-color-1;
 }
 
 .btn {

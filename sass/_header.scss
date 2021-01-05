@@ -14,10 +14,11 @@
   }
 
   &__title {
-    font-family: $font-primary;
+    font-family: $font-secondary;
     font-size: 7rem;
     font-weight: 300;
     letter-spacing: 2.5px;
     color: $secondary-color;
+    text-transform: uppercase;
   }
 }

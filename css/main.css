@@ -52,15 +52,30 @@ body {
   text-transform: uppercase;
   font-weight: 300;
   color: #984b43;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  width: 100%;
 }
 
 .heading-2::after {
   content: '';
   height: 1px;
-  width: 75%;
-  display: block;
-  background-color: currentColor;
-  margin: 1.5rem 0;
+  width: 30rem;
+  background-color: #233237;
+  margin-left: 2rem;
+}
+
+.heading-3 {
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #eac678;
 }
 
 .btn {
@@ -159,7 +174,7 @@ body {
 
 .about__list {
   list-style: none;
-  padding: 2rem;
+  padding-top: 2rem;
   margin: 1rem 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -188,7 +203,7 @@ body {
 
 .about__icon {
   padding-right: 1rem;
-  color: #984b43;
+  color: #eac678;
   font-size: 1.5rem;
 }
 
@@ -247,7 +262,13 @@ body {
 }
 
 .experience {
-  background-color: #233237;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 7rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .footer {
@@ -266,7 +287,7 @@ body {
 
 .footer__credit {
   font-size: 1.2rem;
-  color: #eac678;
+  color: #984b43;
   padding-top: 5rem;
 }
 
@@ -295,11 +316,12 @@ body {
 }
 
 .header__title {
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 7rem;
   font-weight: 300;
   letter-spacing: 2.5px;
   color: #984b43;
+  text-transform: uppercase;
 }
 
 .navigation {
@@ -387,6 +409,39 @@ body {
 }
 
 .work {
-  background-color: #233237;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 7rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.work__project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2rem;
+}
+
+.work__example img {
+  width: 70%;
+}
+
+.work__content {
+  width: 50%;
+}
+
+.work__technologies {
+  list-style: none;
+}
+
+.work__links {
+  list-style: none;
 }
 /*# sourceMappingURL=main.css.map */
