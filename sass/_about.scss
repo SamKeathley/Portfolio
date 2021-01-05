@@ -39,8 +39,8 @@
   &__item::before {
     content: '';
     display: inline-block;
-    height: 1.5rem;
-    width: 1.5rem;
+    height: 1.7rem;
+    width: 1.7rem;
     margin-right: 0.8rem;
 
     @supports (-webkit-mask-image: url() or (mask-image: url())) {
@@ -67,7 +67,6 @@
   }
 
   &__box {
-    content: '';
     position: absolute;
     height: 100%;
     width: 100%;

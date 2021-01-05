@@ -203,8 +203,8 @@ body {
 .about__item::before {
   content: '';
   display: inline-block;
-  height: 1.5rem;
-  width: 1.5rem;
+  height: 1.7rem;
+  width: 1.7rem;
   margin-right: 0.8rem;
 }
 
@@ -233,7 +233,6 @@ body {
 }
 
 .about__box {
-  content: '';
   position: absolute;
   height: 100%;
   width: 100%;
@@ -434,14 +433,41 @@ body {
           align-items: center;
 }
 
+.work__projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .work__project {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
   margin-top: 2rem;
+  margin-bottom: 2rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.work__project:nth-child(odd) {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .work__example {
@@ -456,17 +482,20 @@ body {
 
 .work__content {
   width: 35%;
+  text-align: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.work__content:nth-child(odd) {
   text-align: right;
 }
 
 .work__summary {
-  background-color: #18121e;
-  -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
-          box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
-  padding: 2rem;
+  padding: 2rem 0;
   font-size: 1.7rem;
   width: 100%;
-  text-align: left;
 }
 
 .work__technologies {
@@ -474,32 +503,44 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  margin: 2rem auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 2rem;
 }
 
 .work__technology {
-  font-size: 1.2rem;
-  color: #d4d4d4;
+  color: #984b43;
+  font-family: "Source Code Pro", monospace;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  padding: 0 2rem;
 }
 
 .work__links {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.work__links:nth-child(even) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: end;
-  -ms-flex-line-pack: center;
-      align-content: center;
 }
 
 .work__icon {
-  height: 3rem;
-  width: 3rem;
-  fill: #984b43;
-  margin-left: 1rem;
+  height: 2.25rem;
+  width: 2.25rem;
+  fill: #d4d4d4;
+  margin: 0 1rem;
 }
 /*# sourceMappingURL=main.css.map */
